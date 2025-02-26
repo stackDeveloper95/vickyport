@@ -1,0 +1,165 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar.css*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* // HeroSection.css */
+.hero {
+  height: 100vh;
+  background: url("../public/image/profile.jpg") center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: red;
+}
+
+.minihero {
+
+  padding-top: 140px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* // Portfolio.css */
+.portfolio {
+  text-align: center;
+  padding: 20px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about img {
+  width: 150px;
+  border-radius: 50%;
+  height: 150px;
+
+}
+
+.projects .project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.project {
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.skills-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+}
+
+.portfolio {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+section {
+  margin-bottom: 60px;
+  /* Increased spacing between sections */
+  text-align: center;
+}
+
+.skills-list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  padding: 12px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+}
+
+.project-grid {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 600px;
+}
+
+h2 {
+  padding: 15px;
+}
